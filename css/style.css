@@ -44,6 +44,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+	background-color: #edecea;
 }
 .headline{
     padding: 275px 0px;
@@ -57,6 +58,9 @@
     font-size: 20px;
     color: #fff;
     font-size: 48px;
+}
+.content{
+	margin-top: -65px;
 }
 
  /* - Navigation CSS - */
@@ -102,6 +106,8 @@
 }
  .definition .info{
     margin-top:30px;
+	font-size:18px;
+	width: 81%;
 }
  .dis{
      display: inline-block;
@@ -116,19 +122,37 @@
     font-size: 40px;
     color:#000;
 }
+.test-title{
+	padding-left: 70px;
+}
 .rating{
     margin: 20px 0;
     margin-left: auto;
     margin-right: auto;
 }
 .star{
-    float:left;
+	width: 90%;
 }
 .dist{
     display: inline;
 }
 .star .info{
     width:200px;
+	margin-left: -40px;
+    position: relative;
+    left: 75px;
+    font-size: 18px;
+	font-family: 'Montserrat Medium';
+}
+.quote-1{
+	position: relative;
+    left: 20px;
+    bottom: 15px;
+}
+.quote-2{
+	position: relative;
+    left: 90px;
+    top: 10px;
 }
 
  /* - Explain CSS - */
@@ -142,6 +166,7 @@
 }
 .explain-title .info{
     margin-top: 30px;
+	font-size:18px;
 }
 
  /* - Discover CSS - */
@@ -155,6 +180,7 @@
 }
 .discover-title .info{
     margin-top: 30px;
+	font-size:18px;
 }
 .but-blue{
     margin-top: 20px;
@@ -168,7 +194,9 @@
 /* - Appoint CSS - */
 .appoint{
     background: url(../images/backgrounds/bg-form.jpg);
-    background-size: 100%;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 .appoint-title h1{
     color:#fff;
@@ -179,16 +207,21 @@
     text-shadow: 1px 1px 2px #000;
     margin-top: 30px;
     color:#fff;
+	font-size:18px;
+	font-family: 'Montserrat Light';
+	width: 56%;
 }
 .forms{
-    background: url(../images/backgrounds/bg-texture.png);
-    background-size: 100%;
+	background: url(../images/backgrounds/bg-texture.png);
+	background-repeat: no-repeat;
+    background-size: cover;
     padding: 20px;
-    margin: 40px 0;
+    margin: 80px 0;
 }
 .forms-group{
-    display: inline-block;
-    padding: 10px;
+	display: inline-block;
+    padding: 5px;
+    padding-top: 20px;
 }
 .labels{
     font-family: 'Montserrat Regular';
@@ -295,3 +328,71 @@ footer{
     margin-top:40px;
     margin-bottom: 70px;
 }
+
+/* - Images - */
+.stack-img{
+	margin-top:80px;
+}
+
+/* - Slider - */
+.box-slider{
+	padding: 10px;
+	background-color:white;
+}
+.about-slider{
+    position: relative;
+    overflow: hidden;
+	padding:40px;
+	background: url(../images/backgrounds/bg-texture.png);
+    background-size: 100%;
+ }
+  .about-slider .slider-caption{
+    font-family: 'Nunito Sans Bold', Fallback, sans-serif;
+    font-size: 18px;
+    line-height: 1.78;
+    letter-spacing: 0.5px;
+    color: #fff;
+    width: 100%;
+    max-width: 382px;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: 3;
+    bottom: 35px;
+    left: 40px;
+  }
+  .about-slider .owl-nav{
+    margin-top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .about-slider .owl-carousel .owl-nav .owl-prev,
+  .about-slider .owl-carousel .owl-nav .owl-next{
+    width: 45px;
+    height: 84px;
+    background: #fff;
+    position: absolute;
+  }
+  .about-slider .owl-carousel .owl-nav .owl-prev:focus,
+  .about-slider .owl-carousel .owl-nav .owl-next:focus{
+    outline: none;
+  }
+  .about-slider .owl-carousel .owl-nav .owl-prev{
+    left: -10px;
+    right: auto;
+    bottom: 0;
+    top: 0;
+    margin: auto auto auto 0;
+  }
+  .about-slider .owl-carousel .owl-nav .owl-next{
+    right: -10px;
+    left: auto;
+    bottom: 0;
+    top: 0;
+    margin: auto 0 auto auto;
+  }
+  
