@@ -127,7 +127,7 @@
 }
 .rating{
     margin: 20px 0;
-    margin-left: auto;
+    margin-left: 220px;
     margin-right: auto;
 }
 .star{
@@ -363,7 +363,7 @@ footer{
   .about-slider .owl-nav{
     margin-top: 0;
     position: absolute;
-    height: 100%;
+    height: auto;
     width: 100%;
     top: 0;
     left: 0;
