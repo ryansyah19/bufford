@@ -120,6 +120,12 @@ p{
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
     background-color: transparent;
+	color:#0d6f9d;
+}
+.navbar-menu > .active > a,
+.navbar-menu > .active > a:focus,
+.navbar-menu > .active > a:hover{
+	color:#0d6f9d;
 }
 .navbar-brand {
     float: left;
@@ -131,8 +137,9 @@ p{
 .navbar-nav>li>a {
     font-family: 'Montserrat SemiBold';
     font-size : 14px;
-    padding: 10px 20px;
+    padding: 10px 28px;
     color:#333;
+	text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a {
     color: #777;
@@ -142,7 +149,7 @@ p{
 }
 .nav>li {
     position: relative;
-    display: block;
+	display: -webkit-box;
 }
 
 @media (min-width: 768px){

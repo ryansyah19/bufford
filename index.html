@@ -71,10 +71,10 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-menu navbar-right">
-                            <li><a href="#!">ABOUT US</a></li>
-                            <li><a href="#!">SERVICES</a></li>
-                            <li><a href="#!">TESTIMONY</a></li>
-                            <li><a href="#!">BOOK APPOINMENT</a></li>
+								<li><a href="#!">about us</a></li>
+								<li><a href="#!">services</a></li>
+								<li><a href="#!">testimony</a></li>
+								<li class="active"><a href="#!">book appointment</a> <img src="images/icons/calendar.png" class="cal" width="21" height="22" alt="calendar"></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                         </nav>
@@ -102,11 +102,11 @@
              <!-- Section Defiition -->
             <section class="definition">
                 <div class="container">
-                    <div class="row stack-img">
-                        <div class="col-xs-12 col-sm-6">
-                            <img src="images/thumbnails/intro.png" alt="interior" width="625" height="678" class="img-responsive">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <img src="images/thumbnails/intro.png" alt="interior" width="705" height="800" class="img-responsive img-definition">
                         </div>
-                        <div class="col-xs-12 col-sm-6 up">
+                        <div class="col-sm-12 col-md-6 up">
                             <h1 class="title">A Warm</h1>
                             <h1 class="under dis">Welcome</h1>
                             <h1 class="title dis">and a</h1>
@@ -135,9 +135,15 @@
                                 <h1 class="unders">Testimony Stroies</h1>
                             </div>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-12 col-md-6">
                             <div class="star">
-                                <img src="images/icons/rating.png" alt="rating" width="163" height="23" class="img-responsive rating">
+								<li class="list-inline">
+									<img src="images/icons/star.png" alt="rating" width="24" height="23" class="img-responsive rating">
+									<img src="images/icons/star.png" alt="rating" width="24" height="23" class="img-responsive rating">
+									<img src="images/icons/star.png" alt="rating" width="24" height="23" class="img-responsive rating">
+									<img src="images/icons/star.png" alt="rating" width="24" height="23" class="img-responsive rating">
+									<img src="images/icons/star.png" alt="rating" width="24" height="23" class="img-responsive rating">
+								</li>
                                 <img src="images/icons/front-quote.png" alt="quote" width="37" height="37" class="dist quote-1">
                                 <p class="info dist">
                                 Buford Dental is exactly what I've been looking for
@@ -155,9 +161,15 @@
 								</p>
                             </div>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-12 col-md-6">
                             <div class="star">
-                                <img src="images/icons/rating.png" alt="rating" width="163" height="23" class="img-responsive rating">
+                                <li class="list-inline">
+									<img src="images/icons/star.png" alt="rating" width="24" height="23" class="img-responsive rating">
+									<img src="images/icons/star.png" alt="rating" width="24" height="23" class="img-responsive rating">
+									<img src="images/icons/star.png" alt="rating" width="24" height="23" class="img-responsive rating">
+									<img src="images/icons/star.png" alt="rating" width="24" height="23" class="img-responsive rating">
+									<img src="images/icons/star.png" alt="rating" width="24" height="23" class="img-responsive rating">
+								</li>
                                 <img src="images/icons/front-quote.png" alt="quote" width="37" height="37"class="dist quote-1">
                                 <p class="info dist">
                                 Dr. Duong and her worked very well together. Dr.
@@ -233,11 +245,11 @@
             <section class="explain">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-6">
-                            <img src="images/thumbnails/dentist.png" alt="dentist" width="525" height="546">
+                        <div class="col-sm-12 col-md-6">
+                            <img src="images/thumbnails/dentist.png" alt="dentist" width="631" height="657" class="img-responsive img-explain">
                         </div>
-                        <div class="col-xs-6">
-                            <div class="explain-title up">
+					  <div class="col-sm-12 col-md-6">
+                            <div class="explain-title up-2">
                                 <h1 class="title">Get to know</h1>
                                 <h1 class="under">Our Dentist</h1>
                                 <p class="info">
@@ -257,8 +269,11 @@
             <section class="discover">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-6">
-                            <div class="discover-title up">
+                        <div class="col-sm-12 col-md-6 explain-distract">
+                            <img src="images/thumbnails/facility.png" alt="facility" width="637" height="493" class="img-responsive img-discover">   
+                        </div>
+                        <div class="col-sm-12 col-md-6 explain-distract">
+                            <div class="discover-title up-3">
                                 <h1 class="title">Discover</h1>
                                 <h1 class="under">The Dentist Clinic</h1>
                                 <p class="info">
@@ -268,9 +283,6 @@
                                 </p>
                                 <button type="button" class="but-blue">MAKE APPOINMENT</button>
                             </div>
-                        </div>
-                        <div class="col-xs-6">
-                            <img src="images/thumbnails/facility.png" alt="facility" width="525" height="493">   
                         </div>
                     </div>
                 </div>
@@ -324,7 +336,7 @@
                                 </div>
                                 <div class="forms-group">
                                         <span class="labels">DETAILS FOR YOUR APPOINTMENT</span>
-                                        <textarea name="detail" id="detail" cols="70" rows="10"></textarea>
+                                        <textarea name="detail" id="detail" cols="70" rows="10" class="text-area"></textarea>
                                 </div>
                                 <button type="submit" class="but-blues">SUBMIT</button>
                             </div>   
@@ -336,6 +348,9 @@
          <!-- Detail -->
         <section class="details">
             <div class="detail">
+				<p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.285711975098!2d-83.9556166853984!3d34.03654142600602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f59517dee2c003%3A0x8f69b78846ac18f!2sBuford+Dental!5e0!3m2!1sen!2sid!4v1530159585040" class="maps" frameborder="0" style="border:0" allowfullscreen></iframe> 
+				</p>
                 <div class="container">
                     <div class="back">
                         <div class="work">
@@ -351,7 +366,7 @@
                                 </div>
                                 <div class="g-down">
                                     <p class="info">SATURDAY</p>
-                                    <p class="title r">BY APPOINMENT</p>
+                                    <p class="title r"><i>BY APPOINMENT</i></p>
                                 </div>
                                 <p class="info">SUNDAY</p>
                                 <p class="info r">CLOSED</p>
@@ -380,10 +395,10 @@
         <footer>
             <div class="container ">
                 <div class="row">
-                    <div class="col-xs-7 upp">
+                    <div class="col-sm-5 col-md-6 col-lg-7 upp">
                         &copy; Copyright Buford Dental
                     </div>
-                    <div class="col-xs-5 upp">
+                    <div class="col-sm-7 col-md-6 col-lg-5 upp">
                         <ul class="nav-down">
                             <li>ABOUT US</li>
                             <li>TESTIMONY</li>
