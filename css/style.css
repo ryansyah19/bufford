@@ -459,11 +459,6 @@ footer{
 	width: 95%;
    }
 }
-@media (max-width: 767px){
-.container {
-	width: 100%;
-	}
-}
 @media screen and (max-width: 1199px){
 /* - Top-Menu - */
 .reserve {
@@ -556,4 +551,71 @@ footer{
 	display:inline-block;
 }
 }
+@media (max-width: 767px){
+/* - Grid - */
+.container {
+	width: 100%;
+	}
+/* - Definition - */	
+	.img-definition{
+	max-width:100%;
+}
+/* - Testimony - */
+.star {
+    width: 85%;
+}
 
+/* - Form - */
+	input{  
+	width: 100%;
+}
+	select{
+	width: 100%;
+}
+}
+@media (max-width: 479px){
+.work {
+    padding: 30px;
+    margin-left: 0px;
+    background: #0d6f9d;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}
+.work .info {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    font-family: 'Montserrat Regular';
+    margin: 5px 0;
+}
+.work .logo {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.r {
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    float: none;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.appoint-title .title {
+    color: #fff;
+    text-shadow: 4px 1px 20px #000000e6;
+    font-size: 32px;
+    font-family: 'Montserrat Light';
+}
+.appoint-title .under {
+    color: #fff;
+    font-size: 32px;
+    text-shadow: 3px 2px 13px #000000e6;
+}
+.star {
+    width: 75%;
+}
+.pem{
+	margin-left:-45px;
+}
+}
