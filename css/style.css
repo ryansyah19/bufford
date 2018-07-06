@@ -411,7 +411,7 @@ select{
     margin: 5px;
     margin-right: 5px;
 }
-.maps{
+#map-canvas{
 	position: absolute;
     z-index: 0;
     width: 100%;
@@ -422,15 +422,19 @@ select{
 footer{
     background: url(../images/backgrounds/bg-footer.png);
     background-size: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
     font-family: 'Montserrat Regular';
     color:#fff;
 }
 .nav-down li{
     display: inline-block;
     padding-right: 10px;
+}
+.nav-down>li>a{
+		text-decoration:none;
+		color:white;
 }
 .upp{
     margin-top:40px;
@@ -441,7 +445,7 @@ footer{
 .box-slider{
 	padding: 10px;
 	background-color:white;
-	box-shadow: 0px 0px 50px 5px #00000047;
+    box-shadow: 0px 0px 50px 5px #00000047;
 }
 .about-slider{
     position: relative;
@@ -450,30 +454,24 @@ footer{
 	background: url(../images/backgrounds/bg-texture.png);
     background-size: 100%;
  }
-.about-slider .slider-caption{
-    font-family: 'Nunito Sans Bold', Fallback, sans-serif;
-    font-size: 18px;
-    line-height: 1.78;
-    letter-spacing: 0.5px;
-    color: #fff;
+/* image slideshows for events */
+
+.carousel-wrap {
     width: 100%;
-    max-width: 382px;
-    margin-bottom: 0;
-    position: absolute;
-    z-index: 3;
-    bottom: 35px;
-    left: 40px;
   }
-.about-slider .owl-nav{
-    margin-top: 0;
-    position: absolute;
-    height: auto;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  
+  .bootleggers .item {
+    -webkit-backface-visibility: hidden;
+    display: inline-block;
   }
+
+  .owl-nav>div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    color: #cdcbcd;
+  }
+  
 .about-slider .owl-carousel .owl-nav .owl-prev,
 .about-slider .owl-carousel .owl-nav .owl-next{
     width: 45px;
@@ -486,19 +484,23 @@ footer{
     outline: none;
   }
 .about-slider .owl-carousel .owl-nav .owl-prev{
-    left: -10px;
+    left: -5px;
     right: auto;
     bottom: 0;
     top: 0;
     margin: auto auto auto 0;
   }
 .about-slider .owl-carousel .owl-nav .owl-next{
-    right: -10px;
+    right: -5px;
     left: auto;
     bottom: 0;
     top: 0;
     margin: auto 0 auto auto;
   }
+  .owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
   
   /* - Team CSS - */
 .team{
